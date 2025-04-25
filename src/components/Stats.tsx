@@ -2,10 +2,10 @@ import React from 'react';
 import { Users, Calendar, Star, Award } from 'lucide-react';
 
 const stats = [
-  { id: 1, name: 'Events Created', value: '500+', icon: Calendar },
-  { id: 2, name: 'Active Users', value: '10,000+', icon: Users },
+  { id: 1, name: 'Events Created', value: '100+', icon: Calendar },
+  { id: 2, name: 'Active Users', value: '1000+', icon: Users },
   { id: 3, name: 'Success Rate', value: '98%', icon: Star },
-  { id: 4, name: 'Awards Won', value: '15+', icon: Award },
+  
 ];
 
 const Stats: React.FC = () => {
